@@ -4,9 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-//CURRENTLY NOT FIXED
-//FIRST INDEX (0) IS NOT READABLE
-
 
 namespace SoftUni
 {
