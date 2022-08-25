@@ -11,15 +11,14 @@ namespace SoftUni
         static void Main(string[] args)
         {
             string input = Console.ReadLine();
-            string[] splited = input.Split(' ');
             Stack<string> stack = new Stack<string>();
-            foreach(var word in splited)
+            foreach(char ch in input)
             {
-                stack.Push(word);
+                stack.Push(ch.ToString());
             }
             while(stack.Count > 0)
             {
-                Console.WriteLine(stack.Pop());
+                Console.Write(stack.Pop());
             }
         }
     }
